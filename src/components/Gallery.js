@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Test() {
+export default function Gallery() {
     return (
         <div>
-            Hello World
+            
         </div>
     )
 }
