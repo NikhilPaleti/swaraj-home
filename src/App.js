@@ -4,19 +4,25 @@ import Team from  './components/Team';
 import BusinessPlan from './components/BusinessPlans';
 import Home from './components/Home';
 import Gallery from './components/Gallery';
+import DesktopNavbar from './components/DesktopNavbar';
+import Heading from './components/Heading';
 
 function App() {
   return (
-    <div className = "App">
-      <Router>
+    <Router>
+      <div className = "App">
+        <Heading> </Heading>
+        <DesktopNavbar> </DesktopNavbar>
         <Switch>
-          <Route path="/" exact component= {Home}> </Route>
-          <Route path="/ourplan" component= {BusinessPlan}> </Route>
-          <Route path="/ourteam" component= {Team}> </Route>
-          <Route path="/gallery" component= {Gallery}> </Route>
+          <Route path="/" exact component= {Home} />
+          <Route path="/ourplan" component= {BusinessPlan} />
+          <Route path="/ourteam" component= {Team} />
+          <Route path="/gallery" component= {Gallery} />
         </Switch>
-      </Router>
-    </div>
+        
+        APP OPEN
+      </div>
+    </Router>
   );
 }
 

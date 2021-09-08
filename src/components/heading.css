@@ -1,0 +1,28 @@
+.heading
+{
+    display: flex;
+    padding: 15px;
+}
+
+.leftHead
+{
+
+}
+.swarajLogo
+{
+    height: 50px;
+}
+
+.rightHead
+{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    align-items: center;
+    
+    width: 100%;
+}
+.faIcons
+{
+    margin-left: 30px;
+}
