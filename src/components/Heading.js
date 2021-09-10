@@ -10,6 +10,7 @@ export default function Heading() {
         <div className = "heading">
             <div className="leftHead">
                 <img className="swarajLogo" src={logo} />
+                SWARAJ <br /> HYDROPONICS 
             </div>
             <div className="rightHead">
                 <FontAwesomeIcon icon={ faPhone } className="faIcons" />

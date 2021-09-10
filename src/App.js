@@ -6,6 +6,7 @@ import Home from './components/Home';
 import Gallery from './components/Gallery';
 import DesktopNavbar from './components/DesktopNavbar';
 import Heading from './components/Heading';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         </Switch>
         
         APP OPEN
+        <Footer> </Footer>
       </div>
     </Router>
   );

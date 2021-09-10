@@ -4,16 +4,16 @@ import './desktopNavbar.css';
 export default function DesktopNavbar() {
     return (
         <div className="DesktopNavbar">
-            <div>
+            <div className="clickable">
                 Home
             </div>
-            <div>
+            <div className="clickable">
                 About Us
             </div>
-            <div>
+            <div className="clickable">
                Services
             </div>
-            <div>
+            <div className="clickable">
                 Gallery
             </div>
         </div>
