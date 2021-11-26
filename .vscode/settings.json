@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "string": "cpp",
+        "xstring": "cpp",
+        "stdlib.h": "c",
+        "queue": "cpp"
+    }
+}
